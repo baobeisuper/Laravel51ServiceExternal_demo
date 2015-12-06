@@ -2,7 +2,6 @@
 
 namespace MyBlog\Services;
 
-
 use Illuminate\Mail\Mailer;
 use Illuminate\Mail\Message;
 
@@ -10,7 +9,6 @@ class EmailService
 {
     /** @var Mailer */
     private $mail;
-
 
     /**
      * EmailService constructor.
